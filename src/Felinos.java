@@ -2,7 +2,6 @@ public class Felinos {
     //Atributos
     String raza;
     String tamano;
-
     String edad;
     String habitat;
     //Constructor
@@ -12,9 +11,10 @@ public class Felinos {
         this.edad = edad;
         this.habitat = habitat;
     }
+    public Felinos() {
+    }
+
     //Getters and Setters
-
-
     public String getRaza() {
         return raza;
     }
@@ -45,5 +45,15 @@ public class Felinos {
 
     public void setHabitat(String habitat) {
         this.habitat = habitat;
+    }
+    //metodos
+    public void moverse(){
+        System.out.println("Este es el metodo moverse que pertenece a Felinos");
+    }
+    public void cazar(){
+        System.out.println("Este es el metoto cazar que pertenece a Felino");
+    }
+    public void dormir(){
+        System.out.println("Este es el metodo dormir que pertenece a Felino");
     }
 }
